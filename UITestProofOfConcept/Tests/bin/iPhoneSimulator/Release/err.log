@@ -1,0 +1,38 @@
+2014-12-16 14:57:22.974 Tests[34944:5630517] MonoTouch: Socket error while connecting to MonoDevelop on 127.0.0.1:10000: Connection refused
+2014-12-16 14:57:25.428 Tests[34944:5630448] [Runner executing:	Run Everything]
+2014-12-16 14:57:25.428 Tests[34944:5630448] [MonoTouch Version:	8.4.0]
+2014-12-16 14:57:25.429 Tests[34944:5630448] [Assembly:	monotouch.dll (32 bits)]
+2014-12-16 14:57:25.429 Tests[34944:5630448] [GC:	Boehm]
+2014-12-16 14:57:25.429 Tests[34944:5630448] [iPhone Simulator:	iPhone OS v8.1]
+2014-12-16 14:57:25.429 Tests[34944:5630448] [Device Name:	iPhone Simulator]
+2014-12-16 14:57:25.430 Tests[34944:5630448] [Device UDID:	FFFFFFFFCE705965E6964BB480224AAACAC85E26]
+2014-12-16 14:57:25.431 Tests[34944:5630448] [Device Locale:	en_US]
+2014-12-16 14:57:25.435 Tests[34944:5630448] [Device Date/Time:	12/16/2014 2:57:25 PM]
+2014-12-16 14:57:25.435 Tests[34944:5630448] [Bundle:	com.your-company.Tests]
+2014-12-16 14:57:25.439 Tests[34944:5630448] Tests.exe
+2014-12-16 14:57:25.439 Tests[34944:5630448] ExampleTests
+2014-12-16 14:57:25.464 Tests[34944:5630448] Full log file: /Users/nh8589/Library/Developer/CoreSimulator/Devices/66B1547F-8709-4425-8743-6C843F332303/data/Containers/Data/Application/B5A0BBF1-9D77-4A55-97B4-44E77C1ED09E/tmp/uitest/log-2014-12-16_14-57-25-461.txt
+2014-12-16 14:57:25.467 Tests[34944:5630448] iOS test running Xamarin.UITest version: 0.6.7
+2014-12-16 14:57:25.477 Tests[34944:5630448] Skipping local screenshots. Can be enabled with EnableScreenshots() when configuring app.
+2014-12-16 14:57:25.490 Tests[34944:5630448] No api key found.
+2014-12-16 14:57:25.490 Tests[34944:5630448] Running in unactivated mode. Test run will be restricted to simulators for a maximum duration of 15 minutes. The full version is available for Xamarin Test Cloud customers, for more information contact sales@xamarin.com.
+2014-12-16 14:57:25.571 Tests[34944:5630448] Artifact folder: /Users/nh8589/Library/Developer/CoreSimulator/Devices/66B1547F-8709-4425-8743-6C843F332303/data/Containers/Data/Application/B5A0BBF1-9D77-4A55-97B4-44E77C1ED09E/tmp/uitest/a-EA31ED48DAD46110E2DCEE124077794463556565
+2014-12-16 14:57:25.578 Tests[34944:5630448] Running command. { Path: "ps", Arguments: "-xo pid,args", CurrentDirectory: "/Users/nh8589/Library/Developer/CoreSimulator/Devices/66B1547F-8709-4425-8743-6C843F332303/data/Containers/Bundle/Application/79250A57-A205-4748-BA69-7073F605937A/Tests.app" }
+2014-12-16 14:57:25.586 Tests[34944:5630448] 	[FAIL] FirstTest : System.ComponentModel.Win32Exception : ApplicationName='ps', CommandLine='-xo pid,args', CurrentDirectory='', Native error= Cannot find the specified file
+2014-12-16 14:57:25.587 Tests[34944:5630448] 		  at System.Diagnostics.Process.Start_noshell (System.Diagnostics.ProcessStartInfo startInfo, System.Diagnostics.Process process) [0x00352] in ///Library/Frameworks/Xamarin.iOS.framework/Versions/8.4.0.43/src/mono/mcs/class/System/System.Diagnostics/Process.cs:1102 
+2014-12-16 14:57:25.587 Tests[34944:5630448] 		  at System.Diagnostics.Process.Start_common (System.Diagnostics.ProcessStartInfo startInfo, System.Diagnostics.Process process) [0x00096] in ///Library/Frameworks/Xamarin.iOS.framework/Versions/8.4.0.43/src/mono/mcs/class/System/System.Diagnostics/Process.cs:1166 
+2014-12-16 14:57:25.587 Tests[34944:5630448] 		  at System.Diagnostics.Process.Start (System.Diagnostics.ProcessStartInfo startInfo) [0x0001e] in ///Library/Frameworks/Xamarin.iOS.framework/Versions/8.4.0.43/src/mono/mcs/class/System/System.Diagnostics/Process.cs:1186 
+2014-12-16 14:57:25.587 Tests[34944:5630448] 		  at Xamarin.UITest.Shared.Processes.RunningProcess..ctor (System.String path, System.String arguments) [0x00000] in <filename unknown>:0 
+2014-12-16 14:57:25.587 Tests[34944:5630448] 		  at Xamarin.UITest.Shared.Processes.ProcessRunner.RunCommand (System.String command, System.String arguments, CheckExitCode checkExitCode) [0x00000] in <filename unknown>:0 
+2014-12-16 14:57:25.587 Tests[34944:5630448] 		  at Xamarin.UITest.iOS.iOSPortForwarder.FindExistingForward (Int32 port, IProcessRunner processRunner) [0x00000] in <filename unknown>:0 
+2014-12-16 14:57:25.587 Tests[34944:5630448] 		  at Xamarin.UITest.iOS.iOSPortForwarder.StopAllForwards (Int32 port, IProcessRunner processRunner, ILogger logger) [0x00000] in <filename unknown>:0 
+2014-12-16 14:57:25.587 Tests[34944:5630448] 		  at Xamarin.UITest.iOS.iOSApp.PreRunCleanup (Int32 port, IProcessRunner processRunner, Xamarin.UITest.iOS.Instruments instruments) [0x00000] in <filename unknown>:0 
+2014-12-16 14:57:25.588 Tests[34944:5630448] 		  at Xamarin.UITest.iOS.iOSApp..ctor (IiOSAppConfiguration appConfiguration) [0x00000] in <filename unknown>:0 
+2014-12-16 14:57:25.588 Tests[34944:5630448] 		  at Xamarin.UITest.Configuration.iOSAppConfigurator.StartApp () [0x00000] in <filename unknown>:0 
+2014-12-16 14:57:25.588 Tests[34944:5630448] 		  at Tests.ExampleTests.ConfigureTest () [0x00018] in /Users/nh8589/Projects/UITestProofOfConcept/UITestProofOfConcept/Tests/ExampleTests.cs:40 
+2014-12-16 14:57:25.588 Tests[34944:5630448] 		  at Tests.ExampleTests.FirstTest () [0x00000] in /Users/nh8589/Projects/UITestProofOfConcept/UITestProofOfConcept/Tests/ExampleTests.cs:46 
+2014-12-16 14:57:25.588 Tests[34944:5630448] 		  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&)
+2014-12-16 14:57:25.588 Tests[34944:5630448] 		  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00044] in /Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Reflection/MonoMethod.cs:230 
+2014-12-16 14:57:25.590 Tests[34944:5630448] ExampleTests : 149 ms
+2014-12-16 14:57:25.591 Tests[34944:5630448] Tests.exe : 151 ms
+2014-12-16 14:57:25.592 Tests[34944:5630448] Tests run: 1 Passed: 0 Inconclusive: 0 Failed: 1 Ignored: 0

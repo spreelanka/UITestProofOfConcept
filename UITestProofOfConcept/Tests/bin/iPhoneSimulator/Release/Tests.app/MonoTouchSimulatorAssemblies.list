@@ -1,0 +1,16 @@
+mscorlib.dll
+System.dll
+System.Xml.dll
+System.Core.dll
+Mono.Dynamic.Interpreter.dll
+MonoTouch.NUnitLite.dll
+MonoTouch.Dialog-1.dll
+System.Json.dll
+Xamarin.UITest.dll
+System.Xml.Linq.dll
+System.Data.dll
+Mono.Data.Tds.dll
+Mono.Security.dll
+System.Transactions.dll
+System.Numerics.dll
+System.Runtime.Serialization.dll

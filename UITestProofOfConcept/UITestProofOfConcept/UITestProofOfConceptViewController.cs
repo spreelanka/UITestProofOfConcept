@@ -25,6 +25,7 @@ namespace UITestProofOfConcept
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
+			ExampleTextField.AccessibilityIdentifier = "ExampleTextField";
 			
 			// Perform any additional setup after loading the view, typically from a nib.
 		}

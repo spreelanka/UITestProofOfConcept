@@ -1,0 +1,5 @@
+﻿<Properties>
+  <DisabledProjects>
+    <String>Tests/Tests.csproj</String>
+  </DisabledProjects>
+</Properties>

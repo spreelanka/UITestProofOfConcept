@@ -43,6 +43,7 @@ namespace Tests
 		[Test]
 		public void FirstTest ()
 		{
+
 			ConfigureTest ();
 			_app.Repl ();
 
